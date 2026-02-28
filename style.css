@@ -1,0 +1,64 @@
+body {
+    background-color: #000;
+    color: #ff0000;
+    font-family: 'Courier New', monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+input {
+    background: #000;
+    border: 1px solid #ff0000;
+    color: #ff0000;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 0 5px #700000;
+}
+
+button {
+    background: #ff0000;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    box-shadow: 0 0 20px #ff0000;
+}
+
+/* --- Directory Table Styling --- */
+.directory-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+    border: 1px solid #ff0000;
+}
+
+th, td {
+    border: 1px solid #440000;
+    padding: 12px;
+    text-align: left;
+    color: #ff0000;
+}
+
+th {
+    background-color: #220000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+tr:hover {
+    background-color: #1a0000;
+}
